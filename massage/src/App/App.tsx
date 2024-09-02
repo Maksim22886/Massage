@@ -1,7 +1,8 @@
 import { Routes, Route } from 'react-router-dom';
 import Navbar from '../components/navbar/Navbar';
+import Footer from '../components/footer/Footer';
 
-import './App.css';
+import './App.scss';
 
 function App(): JSX.Element {
   return (
@@ -12,7 +13,7 @@ function App(): JSX.Element {
           <Route path="/signin" element={<SignIn />} />*/}
         </Route>
       </Routes>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
