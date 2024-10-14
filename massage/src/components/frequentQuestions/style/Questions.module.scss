@@ -1,0 +1,104 @@
+@import '../../../variables.scss';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Центрирование по горизонтали */
+  margin-bottom: 20px;
+}
+
+.block_wrapper:first-child {
+  border-top: 1px solid #1f2b21;
+}
+
+.block_wrapper {
+  width: 100%; /* Убедитесь, что блок занимает всю доступную ширину */
+  max-width: 600px; /* Вы можете настроить максимальную ширину по необходимости */
+  border-bottom: 1px solid #1f2b21;
+}
+
+.block_top {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+  padding: 3px 10px 3px 3px;
+  color: #546a58;
+  cursor: pointer;
+}
+
+.arrow {
+  transform: rotate(0deg);
+  transition: transform var(--transition-duration) var(--transition-function),
+    color var(--transition-duration) var(--transition-function);
+  color: var(--secondary-color);
+  cursor: pointer;
+  width: 27px; /* или другой размер в зависимости от вашей иконки */
+  height: 27px;
+  // border-radius: 50%;
+  // border: 1px solid #000; /* цвет и толщина бордера */
+  // background-color: #f0f0f0; /* цвет фона круга */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrow.open {
+  transform: rotate(180deg);
+}
+
+.description {
+  max-height: 0; /* Начальное состояние */
+  overflow: hidden;
+  transition: max-height 300ms ease-out;
+  margin-bottom: 10px;
+  padding: 5px;
+  font-size: 14px;
+  color: #546a58;
+}
+
+.description.open {
+  max-height: 1000px; /* Стремитесь выбрать значение выше, чем максимальная высота вашего контента */
+}
+
+.title {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  color: #546a58;
+
+  @media (min-width: $v-sm) {
+    margin-top: 20px;
+  }
+
+  @media (min-width: $v-lg) {
+    margin-top: 20px;
+  }
+}
+
+.title_block {
+  font-size: 14px;
+  width: 320px;
+  padding: 5px;
+  @media (min-width: $v-lg) {
+    font-size: 18px;
+    width: 100%;
+  }
+}
+
+.block_arrow {
+  margin-left: 10px;
+}
+
+.mainContainer {
+  position: relative;
+}
+
+.bottom_left_icon {
+  position: absolute; /* или relative, если родительский элемент имеет position: relative */
+  bottom: 0;
+  left: 0;
+  /* Дополнительные настройки */
+  width: 300px; /* Установите нужный размер */
+  height: 300px; /* Сохранение пропорций */
+}

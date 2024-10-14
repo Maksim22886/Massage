@@ -1,0 +1,17 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <g fill="none" stroke="#0099ff" stroke-width="2">
+    <!-- Голова -->
+    <circle cx="32" cy="12" r="10" fill="#f4c2c2"/>
+    
+    <!-- Тело -->
+    <path d="M22,28c-5.5,0-10,4.5-10,10v14h40V38c0-5.5-4.5-10-10-10H22z" fill="#f4c2c2"/>
+
+    <!-- Руки массажиста -->
+    <path d="M16,38c-2,0-4,1.5-4,4s2,4,4,4h6v-8H16z" fill="#e0a899"/>
+    <path d="M48,38c2,0,4,1.5,4,4s-2,4-4,4h-6v-8H48z" fill="#e0a899"/>
+
+    <!-- Линии для расслабляющей атмосферы -->
+    <path d="M20,52c-4,2-8,2-12,0" stroke-linecap="round"/>
+    <path d="M44,52c4,2,8,2,12,0" stroke-linecap="round"/>
+  </g>
+</svg>

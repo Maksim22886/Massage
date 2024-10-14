@@ -1,4 +1,99 @@
-.footer_block {
-  //   color: red;
-  background-color: red;
+@import '../../../variables.scss';
+
+.footer {
+  background-color: #546a58;
+  color: #fff;
+  padding: 20px;
+  display: block;
+  justify-content: space-between;
+
+  @media (min-width: $v-lg) {
+    display: flex;
+    justify-content: center;
+    // gap: 120px;
+  }
+
+  .footer_section {
+    margin: 0 10px;
+    border-top: 0.5px solid white; /* Толщина и цвет полоски */
+    padding: 0px 0px 20px 0px;
+
+    @media (min-width: $v-lg) {
+      margin: auto;
+      border: none;
+      padding: 0%;
+    }
+
+    h4 {
+      margin-bottom: 10px;
+    }
+
+    a {
+      color: #fff;
+      text-decoration: none;
+      display: block;
+
+      &:hover {
+        text-decoration: underline;
+      }
+
+      svg {
+        margin-right: 5px;
+      }
+    }
+  }
+}
+
+.footer_section:first-child {
+  border-top: none;
+}
+
+.footer_bottom {
+  background-color: #222;
+  color: #aaa;
+  text-align: center;
+  padding: 10px;
+}
+
+.footer_section-info {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.telegramPhoto {
+  width: 20px;
+  height: 20px;
+}
+
+.iconText {
+  display: flex;
+  gap: 5px;
+}
+
+.textHref {
+  text-decoration: none;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+.block_network {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.phone_block {
+  display: flex;
+  gap: 5px;
+}
+
+.svg-block {
+  width: 100px;
+  height: 100px;
+  display: flex;
+}
+.block_title {
+  display: flex;
 }

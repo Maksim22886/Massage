@@ -1,5 +1,21 @@
+.navbar_block {
+  background-color: #546a58;
+  // height: 200px;
+}
+
 .navbar_block-content {
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 30px;
+  justify-content: space-evenly;
+}
+
+.navbar_button {
+  cursor: pointer;
+  color: white;
+}
+
+.main_img {
+  width: 200px;
+  height: 200px;
 }

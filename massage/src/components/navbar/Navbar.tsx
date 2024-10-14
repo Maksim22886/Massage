@@ -1,21 +1,19 @@
 import './style/Navbar.scss';
+import Main_img from '../../assets/img/photo.png';
+import { NavLink, Outlet } from 'react-router-dom';
 
 function Navbar(): JSX.Element {
   return (
-    <div className="navbar_block">
-      <div className="navbar_block-content">
-        <p>qwe</p>
-        <iframe
-          src="https://vk.com/video_ext.php?oid=691369026&id=456239118&hash=54772ebd91ce5fc063"
-          width="640"
-          height="360"
-          frameBorder="0"
-          allowFullScreen
-        ></iframe>
-        <p>ewq</p>
-        <p>ewq</p>
+    <>
+      <div className="navbar_block">
+        <div className="navbar_block-content">
+          <p className="navbar_button">Услуги</p>
+          <p className="navbar_button">Акции</p>
+          <p className="navbar_button">Контакты</p>
+        </div>
+        {/* <img className="main_img" src={Main_img} alt="" />   */}
       </div>
-    </div>
+    </>
   );
 }
 
