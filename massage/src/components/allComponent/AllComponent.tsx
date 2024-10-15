@@ -9,7 +9,7 @@ export const AllComponent = () => {
     <>
       <MassageTypes />
       <Certificate />
-      <Feedback />
+      {/* <Feedback /> */}
       <PriceList />
       <Questions />
     </>

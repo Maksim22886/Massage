@@ -1,4 +1,3 @@
-import React from 'react';
 import { CertificateCarousel } from './CertificateCarousel';
 import Sertificate from '../../assets/img/sertificate.jpg';
 import Sertificate2 from '../../assets/img/sertificate2.jpg';
@@ -12,6 +11,7 @@ import Sertificate9 from '../../assets/img/sertificate9.jpg';
 import Sertificate10 from '../../assets/img/sertificate10.jpg';
 import Sertificate11 from '../../assets/img/sertificate11.jpg';
 import Sertificate12 from '../../assets/img/sertificate12.jpg';
+import styles from './style/CertificateCarousel.module.scss';
 
 export const Certificate = () => {
   const certificates = [
@@ -31,7 +31,7 @@ export const Certificate = () => {
 
   return (
     <div>
-      <h1>Наши Сертификаты</h1>
+      <h1 className={styles.title}>Наши Сертификаты</h1>
       <CertificateCarousel certificates={certificates} />
     </div>
   );
