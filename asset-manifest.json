@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/massage/static/css/main.f4c36201.css",
-    "main.js": "/massage/static/js/main.31ce40f8.js",
+    "main.css": "/massage/static/css/main.130fd73c.css",
+    "main.js": "/massage/static/js/main.e230506d.js",
     "static/media/sertificate5.jpg": "/massage/static/media/sertificate5.bdf82ca81dd5f45a2233.jpg",
     "static/media/sertificate10.jpg": "/massage/static/media/sertificate10.7583c60955054c442412.jpg",
     "static/media/sertificate9.jpg": "/massage/static/media/sertificate9.39fad173f96fee2eb20f.jpg",
@@ -36,11 +36,11 @@
     "static/media/telegram-icon2.svg": "/massage/static/media/telegram-icon2.bd0b6bd8c1b7075c392479abb8e0bb05.svg",
     "index.html": "/massage/index.html",
     "static/media/select-arrow.svg": "/massage/static/media/select-arrow.81478d24ad441776f19f9734cd501b81.svg",
-    "main.f4c36201.css.map": "/massage/static/css/main.f4c36201.css.map",
-    "main.31ce40f8.js.map": "/massage/static/js/main.31ce40f8.js.map"
+    "main.130fd73c.css.map": "/massage/static/css/main.130fd73c.css.map",
+    "main.e230506d.js.map": "/massage/static/js/main.e230506d.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4c36201.css",
-    "static/js/main.31ce40f8.js"
+    "static/css/main.130fd73c.css",
+    "static/js/main.e230506d.js"
   ]
 }
