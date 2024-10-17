@@ -9,7 +9,7 @@ function App(): JSX.Element {
     <div className="App">
       <Navbar />
       <Routes>
-        <Route path="/" element={<AllComponent />} />
+        <Route path="/massage" element={<AllComponent />} />
       </Routes>
       <Footer />
     </div>
