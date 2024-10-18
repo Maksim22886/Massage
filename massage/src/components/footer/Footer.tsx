@@ -1,8 +1,8 @@
 import './style/Footer.scss';
 import Maps from '../maps/Maps';
-import { ReactComponent as TelegramIcon } from '../../assets/img/telegram-icon2.svg';
-import { ReactComponent as InstagramIcon } from '../../assets/img/icon-instagram.svg';
-import { ReactComponent as VkIcon } from '../../assets/img/icon-vk2.svg';
+import TelegramIcon from '../../assets/img/telegram-icon2.svg';
+import InstagramIcon from '../../assets/img/icon-instagram.svg';
+import VkIcon from '../../assets/img/icon-vk2.svg';
 import { Network } from './Network';
 import { ReactComponent as Sculpt } from '../../assets/img/sculpOrig.svg';
 
@@ -39,17 +39,17 @@ function Footer(): JSX.Element {
           <div className="block_network">
             <Network
               title="Telegram"
-              icon={TelegramIcon}
+              img={TelegramIcon}
               link="https://t.me/massagintumen"
             />
-            {/* <Network
+            <Network
               title="Instagram"
-              icon={InstagramIcon}
+              img={InstagramIcon}
               link="https://www.instagram.com/massagintumen"
-            /> */}
+            />
             <Network
               title="ВКонтакте"
-              icon={VkIcon}
+              img={VkIcon}
               link="https://vk.com/massagintumen"
             />
           </div>
