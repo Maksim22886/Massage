@@ -55,8 +55,8 @@ export const CertificateCarousel: React.FC<CertificateCarouselProps> = ({
             className={styles.carouselList}
             style={{
               transform: isMobile
-                ? `translateX(-${currentIndex * 245}px)`
-                : `translateX(-${currentIndex * 220}px)`,
+                ? `translateX(-${currentIndex * 222}px)`
+                : `translateX(-${currentIndex * 190}px)`,
               width: `${certificates.length * 220}px`,
             }}
           >
