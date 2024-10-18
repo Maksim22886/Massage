@@ -39,17 +39,17 @@ function Footer(): JSX.Element {
           <div className="block_network">
             <Network
               title="Telegram"
-              img={TelegramIcon}
+              icon={TelegramIcon}
               link="https://t.me/massagintumen"
             />
             <Network
               title="Instagram"
-              img={InstagramIcon}
+              icon={InstagramIcon}
               link="https://www.instagram.com/massagintumen"
             />
             <Network
               title="ВКонтакте"
-              img={VkIcon}
+              icon={VkIcon}
               link="https://vk.com/massagintumen"
             />
           </div>

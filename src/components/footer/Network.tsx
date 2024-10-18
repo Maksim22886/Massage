@@ -1,17 +1,16 @@
 import { FunctionComponent, SVGProps } from 'react';
-import React from 'react';
 
 type NetworkProps = {
   title: string;
-  img: any;
+  icon: FunctionComponent<SVGProps<SVGSVGElement>>;
   link: string;
 };
 
-export const Network: React.FC<NetworkProps> = ({ title, img, link }) => {
+export const Network: React.FC<NetworkProps> = ({ title, icon: Icon, link }) => {
   return (
-    <a href={link} target="_blank" className="no-underline">
+    <a href={link} target="_blank" rel="noopener noreferrer" className="no-underline">
       <div className="iconText">
-        <img className="telegramPhoto" src={img} alt="" />
+        <Icon />
         <p className="textHref">{title}</p>
       </div>
     </a>
