@@ -1,10 +1,7 @@
 import classic from '../../assets/img/classic.jpg';
 import massageBukkal from '../../assets/img/massage-bukol.jpg';
-// import relax from '../../assets/img/relax.jpg';
-import relax from '../../../static//media/relax.07094738b172e6517186.jpg';
-
+import relax from '../../assets/img/relax.jpg';
 import classicFace from '../../assets/img/classicFace.webp';
-
 import faceBlack from '../../assets/img/face-black.jpg';
 import face from '../../assets/img/face.jpg';
 import body from '../../assets/img/body.jpg';
