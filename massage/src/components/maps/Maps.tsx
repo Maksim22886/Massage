@@ -1,8 +1,9 @@
 import React, { useEffect } from 'react';
 import './style/Maps.scss';
 import Icon from '../../assets/img/icon-map.svg';
-
 import WhatsApp from '../../assets/img/whatsApp.svg';
+
+
 
 declare global {
   interface Window {
