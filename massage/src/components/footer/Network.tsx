@@ -20,7 +20,7 @@ export const Network: React.FC<NetworkProps> = ({
       className="no-underline"
     >
       <div className="iconText">
-        <Sculpt />
+        <Icon/>
         <p className="textHref">{title}</p>
       </div>
     </a>
