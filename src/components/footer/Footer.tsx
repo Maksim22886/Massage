@@ -42,11 +42,11 @@ function Footer(): JSX.Element {
               icon={TelegramIcon}
               link="https://t.me/massagintumen"
             />
-            <Network
+            {/* <Network
               title="Instagram"
               icon={InstagramIcon}
               link="https://www.instagram.com/massagintumen"
-            />
+            /> */}
             <Network
               title="ВКонтакте"
               icon={VkIcon}
