@@ -59,7 +59,7 @@ function Footer(): JSX.Element {
         <p>&copy; {new Date().getFullYear()} Flowbite™. All rights reserved.</p>
       </div>
     </>
-  );
+  );  
 }
 
 export default Footer;
