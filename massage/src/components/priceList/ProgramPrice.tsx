@@ -1,5 +1,9 @@
 import styles from './style/PriceList.module.scss';
 import Sertificate from '../../assets/img/classic.jpg';
+import MassageTela from '../../assets/img/massageTela.jpg';
+import MassageLica from '../../assets/img/massagLica.jpg'
+import ClassicMassage from '../../assets/img/classicMassage.jpg'
+import OsteoMassage from '../../assets/img/osteo.jpg'
 
 interface Card {
   cardImg: string;
@@ -19,7 +23,7 @@ interface Card {
 export const ProgramPrice = () => {
   const cardsData: Record<string, Card> = {
     card1: {
-      cardImg: Sertificate,
+      cardImg: MassageTela,
       title: 'Массаж тела 5 + 5',
       duration1: '90 мин',
       price1: 15000,
@@ -28,15 +32,15 @@ export const ProgramPrice = () => {
         '5 сеансов коррекции фигуры по 60 минут 5 жиросжигающих и/или лифтинг-обертываний',
     },
     card2: {
-      cardImg: Sertificate,
+      cardImg: MassageLica,
       title: 'Массаж лица 10 + 10',
       duration1: '90 мин',
       price1: 30000,
       benefits: ['Омоложение', 'Подтяжка'],
     },
     card3: {
-      cardImg: Sertificate,
-      title: 'Обертывание 2 + 2',
+      cardImg: OsteoMassage,
+      title: 'Коррекция фигуры 2 + 2',
       duration1: '60 мин',
       price1: 3500,
     },
@@ -60,7 +64,7 @@ export const ProgramPrice = () => {
           className={styles.cardImg}
           style={{ backgroundImage: `url(${card.cardImg})` }}
         >
-          <h2>{card.title}</h2>
+          <div className={styles.title}>{card.title}</div>
           <div className={styles.desc}>
             <div className={styles.descriptions}>
               {renderDurationPrice(card.duration1, card.price1)}

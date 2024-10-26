@@ -201,6 +201,8 @@
 .block_benifits {
   display: flex;
   gap: 5px;
+  flex-wrap: wrap;
+  margin-top: 10px;
 }
 
 .block_benifit {
@@ -208,7 +210,6 @@
   padding: 10px; /* Добавляет внутренние отступы */
   display: inline-block; /* Делает блок по размеру контента */
   border-radius: 20px;
-  margin-top: 10px;
 }
 
 @-webkit-keyframes top-out {

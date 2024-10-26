@@ -1,5 +1,9 @@
 import styles from './style/PriceList.module.scss';
 import Sertificate from '../../assets/img/classic.jpg';
+import MassageTela from '../../assets/img/massageTela.jpg';
+import MassageLica from '../../assets/img/massagLica.jpg'
+import ClassicMassage from '../../assets/img/classicMassage.jpg'
+import OsteoMassage from '../../assets/img/osteo.jpg'
 
 interface Card {
   cardImg: string;
@@ -16,60 +20,60 @@ interface Card {
 }
 
 export const MassagePrice = () => {
-    const cardsData: Record<string, Card> = {
-        card1: {
-          cardImg: Sertificate,
-          title: 'Массаж тела',
-          duration1: '45 мин',
-          price1: 3100,
-          duration2: '60 мин',
-          price2: 4000,
-          duration3: '90 мин',
-          price3: 5200,
-          benefits: [
-            'Омоложение',
-            'Подтяжка',
-            'Другое',
-            'Не другое',
-            'nrfejknfq',
-            'fenkqhfeqf',
-          ],
-        },
-        card2: {
-          cardImg: Sertificate,
-          title: 'Массаж лица',
-          duration1: '30 мин',
-          price1: 2700,
-          duration2: '45 мин',
-          price2: 3200,
-          duration3: '60 мин',
-          price3: 4000,
-          benefits: ['Омоложение', 'Подтяжка'],
-        },
-        card3: {
-          cardImg: Sertificate,
-          title: 'Обертывание',
-          duration1: '60 мин',
-          price1: 3500,
-        },
-        card4: {
-          cardImg: Sertificate,
-          title: 'Усиленный эффект',
-          duration1: '90 мин',
-          price1: 5000,
-        },
-      };
-    
-      const renderDurationPrice = (
-        duration: string | undefined,
-        price: number | undefined,
-      ) =>
-        duration &&
-        price !== undefined && (
-          <div>
-            {duration} .... {`${price}руб`}
-          </div>
-        );
+  const cardsData: Record<string, Card> = {
+    card1: {
+      cardImg: MassageTela,
+      title: 'Массаж тела',
+      duration1: '45 мин',
+      price1: 3100,
+      duration2: '60 мин',
+      price2: 4000,
+      duration3: '90 мин',
+      price3: 5200,
+      benefits: [
+        'Омоложение',
+        'Подтяжка',
+        'Другое',
+        'Не другое',
+        'nrfejknfq',
+        'fenkqhfeqf',
+      ],
+    },
+    card2: {
+      cardImg: MassageLica,
+      title: 'Массаж лица',
+      duration1: '30 мин',
+      price1: 2700,
+      duration2: '45 мин',
+      price2: 3200,
+      duration3: '60 мин',
+      price3: 4000,
+      benefits: ['Омоложение', 'Подтяжка'],
+    },
+    card3: {
+      cardImg: OsteoMassage,
+      title: 'Коррекция фигуры',
+      duration1: '60 мин',
+      price1: 3500,
+    },
+    card4: {
+      cardImg: ClassicMassage,
+      title: 'Усиленный эффект',
+      duration1: '90 мин',
+      price1: 5000,
+    },
+  };
+
+  const renderDurationPrice = (
+    duration: string | undefined,
+    price: number | undefined,
+  ) =>
+    duration &&
+    price !== undefined && (
+      <div>
+        {duration} .... {`${price}руб`}
+      </div>
+    );
   return (
     <div className={styles.cardContainer}>
       {Object.entries(cardsData).map(([key, card]) => (
