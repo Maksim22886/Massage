@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Massage/static/css/main.6a244a41.css",
-    "main.js": "/Massage/static/js/main.795a58eb.js",
+    "main.css": "/Massage/static/css/main.942f6345.css",
+    "main.js": "/Massage/static/js/main.9daa21f5.js",
     "static/media/sertificate5.jpg": "/Massage/static/media/sertificate5.bdf82ca81dd5f45a2233.jpg",
     "static/media/sertificate10.jpg": "/Massage/static/media/sertificate10.7583c60955054c442412.jpg",
     "static/media/sertificate9.jpg": "/Massage/static/media/sertificate9.39fad173f96fee2eb20f.jpg",
@@ -14,6 +14,10 @@
     "static/media/sertificate11.jpg": "/Massage/static/media/sertificate11.d67039f2ebc6f6dbc221.jpg",
     "static/media/sertificate12.jpg": "/Massage/static/media/sertificate12.cc50f7a188ce9c3ac880.jpg",
     "static/media/sertificate4.jpg": "/Massage/static/media/sertificate4.d6bf5078c1ebc86d6437.jpg",
+    "static/media/massageTela.jpg": "/Massage/static/media/massageTela.a1fb29d9b86d7141f3fd.jpg",
+    "static/media/classicMassage.jpg": "/Massage/static/media/classicMassage.7c825989280fb39ae10c.jpg",
+    "static/media/osteo.jpg": "/Massage/static/media/osteo.a5cfbeb846a070b9c7cc.jpg",
+    "static/media/hederImg.jpg": "/Massage/static/media/hederImg.81ef58e7b4dcb220d60c.jpg",
     "static/media/face.jpg": "/Massage/static/media/face.d3027c27daf6c8b3d40f.jpg",
     "static/media/face-black.jpg": "/Massage/static/media/face-black.9b382f81d55ca56b743f.jpg",
     "static/media/massage-bukol.jpg": "/Massage/static/media/massage-bukol.14db8ec5cb3192a42398.jpg",
@@ -23,6 +27,7 @@
     "static/media/classicFace.webp": "/Massage/static/media/classicFace.49e21e50c4d699f93f00.webp",
     "static/media/fix.jpg": "/Massage/static/media/fix.855cc52edb5714378de5.jpg",
     "static/media/fix_black.jpg": "/Massage/static/media/fix_black.1d73dbf3dc49bdaea22e.jpg",
+    "static/media/massagLica.jpg": "/Massage/static/media/massagLica.7354b7fbf0acc1b17a5a.jpg",
     "static/media/body.jpg": "/Massage/static/media/body.d055aaaf1a521e5e221d.jpg",
     "static/media/body_black.jpg": "/Massage/static/media/body_black.101eb9493cc8e9d65e09.jpg",
     "static/media/sculpOrig.svg": "/Massage/static/media/sculpOrig.c585fca44ca1940687117db492e37175.svg",
@@ -36,11 +41,11 @@
     "static/media/telegram-icon2.svg": "/Massage/static/media/telegram-icon2.bd0b6bd8c1b7075c392479abb8e0bb05.svg",
     "index.html": "/Massage/index.html",
     "static/media/select-arrow.svg": "/Massage/static/media/select-arrow.81478d24ad441776f19f9734cd501b81.svg",
-    "main.6a244a41.css.map": "/Massage/static/css/main.6a244a41.css.map",
-    "main.795a58eb.js.map": "/Massage/static/js/main.795a58eb.js.map"
+    "main.942f6345.css.map": "/Massage/static/css/main.942f6345.css.map",
+    "main.9daa21f5.js.map": "/Massage/static/js/main.9daa21f5.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a244a41.css",
-    "static/js/main.795a58eb.js"
+    "static/css/main.942f6345.css",
+    "static/js/main.9daa21f5.js"
   ]
 }
